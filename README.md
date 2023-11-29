@@ -17,7 +17,7 @@ Eclipse SUMO
 ![screenshot2](https://github.com/Eclipse-SDV-Hackathon-Accenture/dco-hack-challenge/assets/39406862/50b4c7c2-1afa-44ab-a2c2-409547eaad70)
 
 Architecture
-![grafik](docs/images/DCO-eclipse_v2.svg "System Diagram: Eclipse Developer Console DCO")
+![grafik](docs/images/CLB_diagram.svg "System Diagram: Eclipse Developer Console DCO")
 
 # Hack Ideas
 
