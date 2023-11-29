@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev -p ${APP_PORT:-3000}",
+    "dev": "next dev -p ${APP_PORT:-4000}",
     "build": "next build",
-    "start": "next start -p ${APP_PORT:-3000}",
+    "start": "next start -p ${APP_PORT:-4000}",
     "lint": "next lint",
     "sonar": "node sonar.js",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage --watchAll=false --verbose",
