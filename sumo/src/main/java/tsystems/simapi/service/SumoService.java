@@ -67,7 +67,6 @@ public class SumoService {
     }
 
     public List<String> getPlotTrajectoriesCommand() {
-        System.out.println(System.getProperty("user.dir"));
         return List.of("python3",
                 "visualization-scripts/plot_trajectories.py",
                 "-t",

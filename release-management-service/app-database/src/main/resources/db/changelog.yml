@@ -1,4 +1,0 @@
-databaseChangeLog:
-- include:
-    file: changelog/v000-track-release-schema.sql
-    relativeToChangelogFile: true
