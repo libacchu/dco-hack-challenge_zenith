@@ -1,17 +1,19 @@
-#  Eclipse-DCO Battery Simulation Hack-Challenge
+Eclipse-DCO Battery Simulation Hack-Challenge:
 
-# About
+# ChargeLifeBalance
 
-Are you ready to charge ahead and revolutionize the world of energy management? :earth_africa::zap:
+Assessing the impact of charging electric vehicles on power grids and energy demand with open-source simulation software. 
 
-Bring your coding skills to the forefront as you decode the secrets of EV battery dynamics **simulation** and engineer solutions for a **sustainable** future. You'll encounter a predefined scenario that presents a challenge encompassing topics such as battery and fleet management. You will do so by harnessing the combined power of two Eclipse Projects - SDV Developer Console and SUMO.
-Power up your creativity and sign up for Eclipse SDV Hackathon Challenge! :rocket::battery:
+Introducing our innovative open-source software, utilizing the DCO console, SUMO, and PowSyBl simulators. It dynamically simulates real-time scenarios for vehicle movement, battery life, and power grid loads, making it invaluable for city planning, power grid optimization, and EV charging station placement by real estate owners. The tool is a versatile resource for educational purposes, enabling users to explore urban planning complexities. With a commitment to openness, it invites global collaboration, ensuring continuous improvement and adaptability to emerging technologies. Our software is a pioneering solution shaping a sustainable and interconnected future.
+
+Team ZENITH
+SDV Eclipse Hackathon 2023
 
 
 Eclipse Developer Console UI
-![grafik](docs/images/DCO-UI_1.png)
-![grafik](docs/images/DCO-UI_3.png)
-![grafik](docs/images/DCO-UI_2.png)
+
+![grafik](docs/images/PLB_1.png)
+![grafik](docs/images/PLB_2.png)
 
 Eclipse SUMO
 ![screenshot2](https://github.com/Eclipse-SDV-Hackathon-Accenture/dco-hack-challenge/assets/39406862/50b4c7c2-1afa-44ab-a2c2-409547eaad70)
@@ -19,40 +21,42 @@ Eclipse SUMO
 Architecture
 ![grafik](docs/images/CLB_diagram.svg "System Diagram: Eclipse Developer Console DCO")
 
-# Hack Ideas
+# Key Features
 
-- Extend the Battery Integration Example
-- Simulate other vehicle attributes supported by Eclipse Sumo
-- Create multi-dimensional simulation scenarios covering different areas of the vehicle
-- Integrate other simulation tools, e.g. Eclipse MOSAIC, to achieve additional simulation and visualisation options
-- Develop robust automated deployment pipelines that seamlessly integrate the Release Management capabilities of DCO with the simulation capabilities of SUMO
-- Build a real-time monitoring system that collects data from DCO and SUMO to provide insightful analytics and visualizations
-- Integrate external APIs such as weather APIs, traffic data to enhance the SUMO simulation with dynamic real-world data
-- Implement Security checks and Safety measures within the release management to detect and respond to potential security threats or safety-critical issues in real-time
-- Explore machine learning techniques (AI) to create adaptive learning algorithms, use the SUMO simulation to train and improve the algorithms over time, making the release management solution smarter
-- Develop a module for managing releases for a fleet of self-driving vehicles
-- Create a system that allows for dynamic updates of the software stack for seamless over-the-air updates ensuring DCO can handle versioning and compability issues
-- Implement a remote diagnostics feature the enables monitorng and troubleshooting in DCO to provide insights on health and performance issues
-- Optimize the release management solution for scalability by ensuring efficient resource allocation to handle fleets of vehicles
-- Think of machine learning algorithms to predict maintenance needs for Software Defined components in vehicles, by using historical data from DCO (historical data needs to be mocked)
+1. Adaptive Charging Time Based on Traffic:
+Our software boasts an intelligent feature that dynamically adapts charging times in response to real-time traffic conditions. By capitalizing on off-peak hours, it optimizes charging schedules, potentially reducing overall charging time. This not only enhances the user experience but also contributes to effective grid load management, ensuring efficient energy utilization.
 
-# Need to know
+2. Real-Time Power Grid Load Analysis (in development):
+Gain comprehensive insights into power grid dynamics with our real-time load analysis feature. The software meticulously assesses and visualizes power grid loads within a specified area, empowering users to make informed decisions regarding infrastructure upgrades and optimizations. This functionality is invaluable for power grid planning, ensuring the seamless integration of electric vehicles into existing systems.
+
+3. Educational Simulation Capabilities:
+Beyond its practical applications, our software serves as a robust educational tool. Students and researchers can explore diverse scenarios related to urban planning, transportation, and energy systems. This feature fosters a deeper understanding of the complexities inherent in sustainable development and aligns with our commitment to knowledge-sharing and community-driven progress.
+
+4. Open-Source Collaboration:
+Embracing the spirit of collaboration, our software is entirely open-source. This key feature invites developers worldwide to contribute, innovate, and enhance the software's capabilities. By fostering a global community, we ensure that the tool remains at the forefront of technological advancements, providing users with the latest features and optimizations.
+
+
+# Need to know / Tech Stack
 
 - Git
 - Maven
 - Java Spring Boot
 - NextJS React
 
-# Hack-Coaches
+# Installation and Pre-requisites
 
-- Sebastian Lang
-- Michail Chatzipanagiotou
+## 1. Install DCO
+  follow README_DCO.md for more information.
+## 2. Install SUMO
+```bash
+docker compose up -d
+```
+## 3. Install PowSYBL
 
-# Template Setup
+https://github.com/powsybl/powsybl-incubator/blob/network_map_viewer_vitejs/network-map-viewer/README.md
 
-[Getting Started](https://github.com/Eclipse-SDV-Hackathon-Accenture/dco-hack-challenge/blob/main/README_DCO.md)
-
-# All necessary links
+# All necessary links / more info
 
 - Eclipse SDV Developer Console: https://gitlab.eclipse.org/eclipse/dco/developer-console
 - Eclipse SUMO: https://github.com/eclipse-sumo/sumo
+- PowSyBI :https://github.com/powsybl
