@@ -47,7 +47,7 @@ Embracing the spirit of collaboration, our software is entirely open-source. Thi
 
 # Installation and Pre-requisites
 
-## 1. Install DCO
+## 1. Install DCO and How-To-Run the whole project
   follow [README_DCO.md](./README_DCO.md) for more information.
 
 ## 2. Install SUMO
