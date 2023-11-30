@@ -1,0 +1,39 @@
+{
+  "name": "@powsybl/network-map-viewer",
+  "description": "network map viewer react component",
+  "version": "0.1.1",
+  "main": "./dist/network-map-viewer.umd.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "npm install && vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cheap-ruler": "^3.0.0",
+    "deck.gl": "^8.0.0",
+    "geolib": "^3.2.1",
+    "react-map-gl": "^6.0.0",
+    "mapbox-gl": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "@mui/system": "^5.5.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-intl": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.0.0",
+    "vite": "^4.4.5"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "L1",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line1",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -3120.0,
+    "p2": 100.0,
+    "i1": 260.0,
+    "i2": 350.0
+  },
+  {
+    "id": "L2",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line2",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -60.0,
+    "p2": 40.0,
+    "i1": 120.0,
+    "i2": 200.0
+  },
+  {
+    "id": "L3",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line3",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -90.0,
+    "p2": 70.0,
+    "i1": 180.0,
+    "i2": 250.0
+  },
+  {
+    "id": "L4",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line4",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -45.0,
+    "p2": 25.0,
+    "i1": 90.0,
+    "i2": 150.0
+  },
+  {
+    "id": "L5",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line5",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -75.0,
+    "p2": 55.0,
+    "i1": 150.0,
+    "i2": 220.0
+  },
+  {
+    "id": "L6",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line6",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -30.0,
+    "p2": 10.0,
+    "i1": 60.0,
+    "i2": 130.0
+  },
+  {
+    "id": "L7",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line7",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -105.0,
+    "p2": 85.0,
+    "i1": 210.0,
+    "i2": 280.0
+  },
+  {
+    "id": "L8",
+    "voltageLevelId1": "VL2_3",
+    "voltageLevelId2": "VL1_1",
+    "name": "Line8",
+    "terminal1Connected": true,
+    "terminal2Connected": true,
+    "p1": -15.0,
+    "p2": 45.0,
+    "i1": 30.0,
+    "i2": 100.0
+  }
+]

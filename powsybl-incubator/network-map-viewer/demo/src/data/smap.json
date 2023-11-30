@@ -1,0 +1,197 @@
+[
+  {
+    "id": "SUB1",
+    "name": "Substation1",
+    "voltageLevels": [
+      {
+        "id": "VL1_1",
+        "substationId": "SUB1",
+        "nominalVoltage": 215.0
+      },
+      {
+        "id": "VL1_2",
+        "substationId": "SUB1",
+        "nominalVoltage": 120.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.620636,
+      "lon": 6.155004
+    }
+  },
+  {
+    "id": "SUB2",
+    "name": "Substation2",
+    "voltageLevels": [
+      {
+        "id": "VL2_1",
+        "substationId": "SUB2",
+        "nominalVoltage": 130.0
+      },
+      {
+        "id": "VL2_2",
+        "substationId": "SUB2",
+        "nominalVoltage": 370.0
+      },
+      {
+        "id": "VL2_3",
+        "substationId": "SUB2",
+        "nominalVoltage": 225.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.611622,
+      "lon": 6.131935
+    }
+  },
+  {
+    "id": "SUB3",
+    "name": "Substation3",
+    "voltageLevels": [
+      {
+        "id": "VL3_1",
+        "substationId": "SUB3",
+        "nominalVoltage": 100.0
+      },
+      {
+        "id": "VL3_2",
+        "substationId": "SUB3",
+        "nominalVoltage": 380.0
+      },
+      {
+        "id": "VL3_3",
+        "substationId": "SUB3",
+        "nominalVoltage": 215.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.618081,
+      "lon": 6.147394
+    }
+  },
+  {
+    "id": "SUB4",
+    "name": "Substation4",
+    "voltageLevels": [
+      {
+        "id": "VL4_1",
+        "substationId": "SUB4",
+        "nominalVoltage": 90.0
+      },
+      {
+        "id": "VL4_2",
+        "substationId": "SUB4",
+        "nominalVoltage": 390.0
+      },
+      {
+        "id": "VL4_3",
+        "substationId": "SUB4",
+        "nominalVoltage": 205.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.620125,
+      "lon": 6.145155
+    }
+  },
+  {
+    "id": "SUB5",
+    "name": "Substation5",
+    "voltageLevels": [
+      {
+        "id": "VL5_1",
+        "substationId": "SUB5",
+        "nominalVoltage": 110.0
+      },
+      {
+        "id": "VL5_2",
+        "substationId": "SUB5",
+        "nominalVoltage": 380.0
+      },
+      {
+        "id": "VL5_3",
+        "substationId": "SUB5",
+        "nominalVoltage": 225.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.619056,
+      "lon": 6.142597
+    }
+  },
+  {
+    "id": "SUB6",
+    "name": "Substation6",
+    "voltageLevels": [
+      {
+        "id": "VL6_1",
+        "substationId": "SUB6",
+        "nominalVoltage": 80.0
+      },
+      {
+        "id": "VL6_2",
+        "substationId": "SUB6",
+        "nominalVoltage": 420.0
+      },
+      {
+        "id": "VL6_3",
+        "substationId": "SUB6",
+        "nominalVoltage": 245.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.616881,
+      "lon": 6.139812
+    }
+  },
+  {
+    "id": "SUB7",
+    "name": "Substation7",
+    "voltageLevels": [
+      {
+        "id": "VL7_1",
+        "substationId": "SUB7",
+        "nominalVoltage": 100.0
+      },
+      {
+        "id": "VL7_2",
+        "substationId": "SUB7",
+        "nominalVoltage": 390.0
+      },
+      {
+        "id": "VL7_3",
+        "substationId": "SUB7",
+        "nominalVoltage": 235.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.617803,
+      "lon": 6.136584
+    }
+  },
+  {
+    "id": "SUB8",
+    "name": "Substation8",
+    "voltageLevels": [
+      {
+        "id": "VL8_1",
+        "substationId": "SUB8",
+        "nominalVoltage": 105.0
+      },
+      {
+        "id": "VL8_2",
+        "substationId": "SUB8",
+        "nominalVoltage": 360.0
+      },
+      {
+        "id": "VL8_3",
+        "substationId": "SUB8",
+        "nominalVoltage": 215.0
+      }
+    ],
+    "coordinate": {
+      "lat": 49.616047,
+      "lon": 6.134535
+    }
+  }
+]
