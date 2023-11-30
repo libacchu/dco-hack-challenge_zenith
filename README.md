@@ -16,9 +16,8 @@ Eclipse Developer Console UI
 
 Eclipse SUMO
 
-![screenshot2](docs/images/sumo_1.png)
-![screenshot3](docs/images/sumo_2.png)
 ![screenshot4](docs/images/sumo_3.png)
+![screenshot2](docs/images/sumo_1.png)
 
 Architecture
 ![grafik](docs/images/CLB_diagram.svg "System Diagram: Eclipse Developer Console DCO")
