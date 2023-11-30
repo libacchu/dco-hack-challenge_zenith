@@ -4,11 +4,10 @@ Eclipse-DCO Battery Simulation Hack-Challenge:
 
 Assessing the impact of charging electric vehicles on power grids and energy demand with open-source simulation software. 
 
-Introducing our innovative open-source software, utilizing the DCO console, SUMO, and PowSyBl simulators. It dynamically simulates real-time scenarios for vehicle movement, battery life, and power grid loads, making it invaluable for city planning, power grid optimization, and EV charging station placement by real estate owners. The tool is a versatile resource for educational purposes, enabling users to explore urban planning complexities. With a commitment to openness, it invites global collaboration, ensuring continuous improvement and adaptability to emerging technologies. Our software is a pioneering solution shaping a sustainable and interconnected future.
+Introducing our innovative open-source software, utilizing the DCO console, SUMO, and PowSyBl simulators. It dynamically simulates real-time scenarios for vehicle movement, battery life, and power grid loads, making it invaluable for city planning, power grid optimization, and EV charging station placement by real estate owners. The tool is a versatile resource for educational purposes, enabling users to explore urban planning complexities. With a commitment to openness, it invites global collaboration, ensuring continuous improvement and adaptability to emerging technologies. Our software is a solution shaping a sustainable and interconnected future.
 
 Team ZENITH
 SDV Eclipse Hackathon 2023
-
 
 Eclipse Developer Console UI
 
@@ -16,7 +15,9 @@ Eclipse Developer Console UI
 ![grafik](docs/images/PLB_2.png)
 
 Eclipse SUMO
-![screenshot2](https://github.com/Eclipse-SDV-Hackathon-Accenture/dco-hack-challenge/assets/39406862/50b4c7c2-1afa-44ab-a2c2-409547eaad70)
+![screenshot2](docs/images/sumo_1.png)
+![screenshot3](docs/images/sumo_2.png)
+![screenshot4](docs/images/sumo_3.png)
 
 Architecture
 ![grafik](docs/images/CLB_diagram.svg "System Diagram: Eclipse Developer Console DCO")
@@ -42,21 +43,39 @@ Embracing the spirit of collaboration, our software is entirely open-source. Thi
 - Maven
 - Java Spring Boot
 - NextJS React
+- Docker
 
 # Installation and Pre-requisites
 
 ## 1. Install DCO
-  follow README_DCO.md for more information.
+  follow [README_DCO.md](./README_DCO.md) for more information.
+
 ## 2. Install SUMO
+
+To install sumo, run the following command in the /sumo directory:
+
 ```bash
 docker compose up -d
 ```
+
 ## 3. Install PowSYBL
 
-https://github.com/powsybl/powsybl-incubator/blob/network_map_viewer_vitejs/network-map-viewer/README.md
+To install PowSyBl, run the following command in the /powsybl directory:
 
-# All necessary links / more info
+```bash
+npm start
+```
+
+Further reading about PowSyBl installation and extended use cases: https://github.com/powsybl/powsybl-incubator/blob/network_map_viewer_vitejs/network-map-viewer/README.md
+
+# Links: Software Components
 
 - Eclipse SDV Developer Console: https://gitlab.eclipse.org/eclipse/dco/developer-console
 - Eclipse SUMO: https://github.com/eclipse-sumo/sumo
-- PowSyBI :https://github.com/powsybl
+- PowSyBI: https://github.com/powsybl
+
+# Links: Studies about Grid Management and Electric Vehicles
+
+- In-motion charged vehicle simulation considering traffic and power grid interactions: https://www.sciencedirect.com/science/article/abs/pii/S136192092200150X 
+- Power Grid Simulation Considering Electric Vehicles and Renewable Energy Sources: https://ieeexplore.ieee.org/document/8813642
+- Towards a Co-simulation of Electric Vehicles with Power Grid: https://ieeexplore.ieee.org/document/9621584/authors#authors
