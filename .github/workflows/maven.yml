@@ -23,6 +23,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 17
+      - name: change dir
+        run: cd developer-console-main    
 
       - name: Build with Maven
         run: mvn --batch-mode package
